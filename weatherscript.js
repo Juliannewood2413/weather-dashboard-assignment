@@ -22,7 +22,7 @@ $(document).ready(function(){
                     var lat = data.coord.lat
                     var lon = data.coord.lon
                     $.ajax({
-                        url: `http://api.openweathermap.org/data/2.5/uvi?lat=${lat}&lon=${lon}&appid=68f6a7a10076ae7929e68098c3a0d344`, //template literals - get rid of concatonations
+                        url: `https://api.openweathermap.org/data/2.5/uvi?lat=${lat}&lon=${lon}&appid=68f6a7a10076ae7929e68098c3a0d344`, //template literals - get rid of concatonations
                         type: `GET`,
                         dataType: `json`
                     }).then(function(nestedData) {
