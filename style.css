@@ -1,0 +1,61 @@
+#top {
+  background-color: rgb(49, 49, 65);
+  color: white;
+  text-align: center;
+  font-size: 80px;
+  padding-top: 15px;
+  height: 5rem;
+}
+
+.row {
+  height: 100%;
+}
+
+#weather-info {
+  border: 1px solid black;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#cards,
+#cardsD2,
+#cardsD3,
+#cardsD4,
+#cardsD5 {
+  margin: 0 auto;
+  text-align: left;
+  max-width: 15%;
+  border-radius: 5px;
+  background: royalblue;
+  color: oldlace;
+  float: left;
+  margin-right: 2px;
+  display: flex;
+  justify-content: center;
+}
+
+.col-3 {
+  background-color: rgb(240, 240, 240);
+  display: flex;
+  justify-content: center;
+}
+
+#city-list {
+  flex-direction: column;
+}
+
+#search-button {
+  width: 100%;
+  background-color: silver;
+}
+
+button {
+  width: 100%;
+  background-color: royalblue;
+  font-weight: bold;
+  color: whitesmoke;
+}
+
+#uvIndex {
+  background-color: rgb(100, 197, 100);
+}
